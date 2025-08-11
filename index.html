@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+  <title>Kolkata Weather — Live, Forecast, Tips, Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#6c5ce7" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <span class="logo-spark">☀️</span>
+      <h1>Cloudcast 🌦️</h1>
+      <span class="tag">Kolkata & your location</span>
+    </div>
+
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="weather" aria-selected="true" role="tab">Weather</button>
+      <button class="tab" data-tab="news" role="tab">News & Tips</button>
+      <button class="tab" data-tab="quiz" role="tab">
+        Quiz <span class="score-badge" id="scoreBadge">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- WEATHER TAB -->
+    <section id="weather" class="tab-panel active" role="tabpanel" aria-labelledby="Weather">
+      <div class="location-row">
+        <div class="location-name" id="locationName">Locating…</div>
+        <div class="updated" id="updatedAt"></div>
+      </div>
+
+      <div class="grid">
+        <!-- Current weather card -->
+        <article class="card current-card">
+          <div class="card-header">
+            <h2>Now</h2>
+            <div class="status-pill" id="statusPill">Loading</div>
+          </div>
+
+          <div class="current-content">
+            <div class="current-icon" id="currentIcon"></div>
+
+            <div class="current-details">
+              <div class="temp-row">
+                <span class="temp" id="currentTemp">--°</span>
+                <span class="feels">
+                  feels like <strong id="feelsLike">--°</strong>
+                </span>
+              </div>
+              <div class="meta-row">
+                <span id="currentSummary">—</span>
+              </div>
+              <div class="stats-row">
+                <div class="stat">
+                  <span class="label">Humidity</span>
+                  <span class="value" id="humidity">--%</span>
+                </div>
+                <div class="stat">
+                  <span class="label">Wind</span>
+                  <span class="value" id="wind">-- km/h</span>
+                </div>
+                <div class="stat">
+                  <span class="label">Rain</span>
+                  <span class="value" id="rain">-- mm</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7-day forecast -->
+        <article class="card forecast-card">
+          <div class="card-header">
+            <h2>7-Day Forecast</h2>
+          </div>
+          <div class="forecast-grid" id="forecastGrid">
+            <!-- forecast items injected here -->
+          </div>
+        </article>
+      </div>
+
+      <div class="notes">
+        If location access is denied or unavailable, data defaults to Kolkata for reliability.
+      </div>
+    </section>
+
+    <!-- NEWS & TIPS TAB -->
+    <section id="news" class="tab-panel" role="tabpanel" aria-labelledby="News & Tips">
+      <div class="grid">
+        <article class="card">
+          <div class="card-header">
+            <h2>Local outlook</h2>
+            <div class="status-pill alt" id="outlookPill">—</div>
+          </div>
+          <ul class="bullet-list" id="outlookBullets">
+            <!-- adaptive items injected -->
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <h2>Weather prep tips</h2>
+          </div>
+          <ul class="bullet-list">
+            <li><strong>Heat:</strong> Hydrate often, wear light cotton, avoid direct sun 12–3 pm.</li>
+            <li><strong>Monsoon:</strong> Carry a compact umbrella, waterproof bag, non-slip footwear.</li>
+            <li><strong>Thunderstorms:</strong> Stay indoors, avoid tall trees, unplug sensitive electronics.</li>
+            <li><strong>Air quality:</strong> Check levels, consider masks during high pollution.</li>
+            <li><strong>Power cuts:</strong> Keep power banks charged; have a small emergency kit.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <h2>Helpful links</h2>
+          </div>
+          <ul class="links">
+            <li><a href="https://mausam.imd.gov.in/" target="_blank" rel="noopener">IMD Mausam (India)</a></li>
+            <li><a href="https://www.kmcgov.in/" target="_blank" rel="noopener">Kolkata Municipal Corporation</a></li>
+            <li><a href="https://www.ndma.gov.in/" target="_blank" rel="noopener">NDMA Preparedness</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- QUIZ TAB -->
+    <section id="quiz" class="tab-panel" role="tabpanel" aria-labelledby="Quiz">
+      <article class="card quiz-card">
+        <div class="card-header">
+          <h2>Weather-wise Quiz</h2>
+          <div class="score">
+            Score: <span id="quizScore">0</span>
+          </div>
+        </div>
+
+        <div id="quizArea">
+          <!-- quiz content injected -->
+        </div>
+
+        <div class="quiz-actions">
+          <button id="nextQuestion" class="btn">Next</button>
+          <button id="resetQuiz" class="btn ghost">Reset</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <h2>How points work</h2>
+        </div>
+        <ul class="bullet-list">
+          <li>+10 points for each correct answer.</li>
+          <li>No negative marks. Aim for a streak!</li>
+          <li>Your best score is saved in your browser.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Built with love for Kolkata. No API keys. Just clear skies and clean code.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
