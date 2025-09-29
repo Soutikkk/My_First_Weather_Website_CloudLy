@@ -1,7 +1,7 @@
 
-# 🌥 CloudCast — My First Vibe-Coded Weather Website
+# 🌥 cloudLy — My First Vibe-Coded Weather Website
 
-CloudCast is a sleek and beginner-friendly weather web app that displays real-time weather data for any location you search. Built as my first fully coded project, it’s where clean design meets practical functionality.
+cloudLy is a sleek and beginner-friendly weather web app that displays real-time weather data for any location you search. Built as my first fully coded project, it’s where clean design meets practical functionality.
 
 ---
 
