@@ -33,8 +33,7 @@ CloudLy is a sleek and beginner-friendly weather web app that displays real-time
 
 
 
-
-
+---
 
 ✨ Future Enhancements
 7-day forecast view
@@ -45,12 +44,17 @@ Dark mode toggle
 
 Animated weather backgrounds
 
+---
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to fork this repo and submit a pull request.
+
+---
 
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
+---
+
 💡 Author
 Soutik GitHub: @Soutikkk
-
