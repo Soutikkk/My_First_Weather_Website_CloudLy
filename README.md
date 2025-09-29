@@ -1,7 +1,7 @@
 
-# 🌥 cloudLy — My First Vibe-Coded Weather Website
+# 🌥 CloudLy — My First Vibe-Coded Weather Website
 
-cloudLy is a sleek and beginner-friendly weather web app that displays real-time weather data for any location you search. Built as my first fully coded project, it’s where clean design meets practical functionality.
+CloudLy is a sleek and beginner-friendly weather web app that displays real-time weather data for any location you search. Built as my first fully coded project, it’s where clean design meets practical functionality.
 
 ---
 
@@ -26,10 +26,12 @@ cloudLy is a sleek and beginner-friendly weather web app that displays real-time
 
 ## 📷 Screenshots
 
-<img width="1860" height="618" alt="image" src="https://github.com/user-attachments/assets/77c239e9-47b1-4865-977e-f310aaf67b7e" />
-<img width="1359" height="564" alt="image" src="https://github.com/user-attachments/assets/ce809029-6ee5-420c-a2d5-e9f98241749c" />
-<img width="1881" height="771" alt="image" src="https://github.com/user-attachments/assets/28485ddd-b34c-480f-930e-36ab6c278bbb" />
-<img width="1873" height="772" alt="image" src="https://github.com/user-attachments/assets/bd294bee-8d96-4633-b398-312927323075" />
+<img width="1874" height="610" alt="image" src="https://github.com/user-attachments/assets/16ed3576-e3ce-42ac-88f1-daf3e0fe3305" />
+<img width="1887" height="557" alt="image" src="https://github.com/user-attachments/assets/93e3209c-3fa8-433e-b227-dd4ede234b48" />
+<img width="1911" height="749" alt="image" src="https://github.com/user-attachments/assets/93145334-c0af-4f6d-aa30-849c2a21f54f" />
+<img width="1863" height="847" alt="image" src="https://github.com/user-attachments/assets/f94d8329-b0b5-43fc-ab3e-cd90387d8921" />
+
+
 
 
 
